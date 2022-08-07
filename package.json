@@ -1,0 +1,14 @@
+{
+  "name": "02-to-do-list-console",
+  "version": "1.0.0",
+  "description": "Lista de tareas por consola",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adriramone90",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
