@@ -66,6 +66,21 @@ class Tareas {
         }
     }
 
+    marcarCompletado(ids){
+        ids.forEach(id=>{
+            const tarea = this._listado[id]
+            if(tarea.complete === null){
+                tarea.complete = new Date().toISOString()
+            }
+        })
+
+        this.listadoArr.forEach(tarea =>{
+            if(!ids.includes(tarea.id)){
+                this._listado[tarea.id].complete = null
+            }
+        })
+    }
+
 }
 
 module.exports = Tareas

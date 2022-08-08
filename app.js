@@ -41,7 +41,7 @@ const main = async () =>{
 
             case '5':
                 const ids = await completarTarea(tareas.listadoArr);
-                console.log(ids)
+                tareas.marcarCompletado(ids)
                 break;
             case '6':
                 const id = await listadoTareasABorrar(tareas.listadoArr)
