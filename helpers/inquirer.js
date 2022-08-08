@@ -1,3 +1,4 @@
+
 const inquirer = require('inquirer');
 require('colors');
 
@@ -40,7 +41,6 @@ const menuOptions = [
 ]
 
 const inquirerMenu = async () =>{
-    //console.clear();
     console.log('==========================='.grey);
     console.log('Seleccione una opción'.bgWhite.black.italic);
     console.log('===========================\n'.grey);

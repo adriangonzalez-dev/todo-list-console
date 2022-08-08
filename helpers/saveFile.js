@@ -1,6 +1,7 @@
 const fs = require('fs');
 
 const pathFile = './db/Database.json'
+
 const saveInDB = (data) =>{
 
     fs.writeFileSync(pathFile,JSON.stringify(data))
