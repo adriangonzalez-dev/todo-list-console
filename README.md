@@ -26,3 +26,5 @@ Dentro de las opciones podemos encontrarnos con:
 * **Borrar tarea**
 
 Todas las acciones persisten dentro de un archivo json.
+
+#### Esta aplicación fue realizada gracias a lo aprendido en el curso de Fernando Herrera (Node js) en Udemy.
