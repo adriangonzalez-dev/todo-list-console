@@ -18,14 +18,12 @@ const main = async () =>{
         tareas.cargarTarea( tareasDB )
     }
 
-
-
     do {
         opt = await inquirerMenu();
 
         switch(opt){
             case '1':
-                const desc = await readInput('Descipción: ')
+                const desc = await readInput('Descripción: ')
                 tareas.crearTarea(desc)
                 break;
             case '2':
