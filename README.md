@@ -3,7 +3,7 @@
 Esta aplicación fue realizada con Node js utilizando los siguientes modulos:
 * **colors: versión 1.4.0** para estilos de la ventana de comandos.
 * **inquirer: versión 8.2.4** para darle interactividad a la ventana de comandos.
-* **uuid: 8.3.2 ** para asignarle un identificador único a cada tarea.
+* **uuid: 8.3.2** para asignarle un identificador único a cada tarea.
 
 ###Inicio
 Para iniciar debemos instalar los modulos requeridos en el package.json
@@ -16,7 +16,7 @@ una vez instalados  podemos iniciar la aplicación.
 
 Al iniciar nos podemos mover con las flechas direccionales del teclado o los números del 0 al 6 para navegar entre las opciones.
 
-##Opciones
+## Opciones
 Dentro de las opciones podemos encontrarnos con: 
 * **Crear tarea** 
 * **Listar tareas**
